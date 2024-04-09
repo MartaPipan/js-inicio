@@ -22,3 +22,13 @@ let userYearBirthday = undefined;
 console.log('title book: "qwerty"');
 console.log("I'm a teacher");
 console.log('I\'m a teacher');
+
+const login = 'qwerty';
+{
+    const login = 'www'
+    console. log('login = ', login)
+}
+{ 
+    const login = 'eee'
+    
+}
