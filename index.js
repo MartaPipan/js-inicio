@@ -19,3 +19,6 @@ const isAdultUser = true;
 const hasUkrainianCitizenship = null;
 let userYearBirthday = undefined;
 
+console.log('title book: "qwerty"');
+console.log("I'm a teacher");
+console.log('I\'m a teacher');
