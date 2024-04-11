@@ -52,3 +52,18 @@ const result = numberFromDB + conversionNumberForUser;
 console.log('result =', result);
 console.log( 'typeof result = ', typeof result);
 
+console.log(12 % 0); //NaN
+console.log(12 + null);  //NaN
+console.log(12 * ''); //NaN
+
+//
+//NaN
+
+//0 ~0 + 0;
+// ''
+// null
+// false 
+//undefined
+//+ - * / %
+
+// 1  true
