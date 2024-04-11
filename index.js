@@ -19,20 +19,29 @@ const result = base ** pow;
 
 let number1 = 10;
 const number2 = 4;
-number1 += number2;
-number1 = number1 + number2;
+// number1 += number2;
+// number1 = number1 + number2;
 
-number1 /= 3;
-number1 = number1 / 3;
+// number1 /= 3;
+// number1 = number1 / 3;
 
-number1 *= number2;
-number1 = number1 * number2;
+// number1 *= number2;
+// number1 = number1 * number2;
 
-number1 **= 2;
-number1 = number1 ** 2;
+// number1 **= 2;
+// number1 = number1 ** 2;
 
-number1 %= 5;
-number1 = number1 % 5;
+// number1 %= 5;
+// number1 = number1 % 5;
 
-number--;
-number1 = number1 - 1;
+// number--;
+// number1 = number1 - 1;
+
+console.log(number1 > number2);
+const resultLess = number1 < number2;
+console.log(resultLess);
+console.log(number1 >= number2);
+
+let str1 = 'cat';
+let str2 = 'dog';
+console.log(str1 >= str2);
